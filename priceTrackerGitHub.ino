@@ -83,7 +83,7 @@ void setup() {
 void loop() {
   position();
   
-  if ((counter + 30)%30 == 0) { // cada 15 segons
+  if ((counter + 30)%30 == 0) { // every 30 seconds
     if (counter >= 31) {
       lcd.setCursor(15,2); //change position
       lcd.print("·"); }
