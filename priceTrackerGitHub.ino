@@ -15,7 +15,8 @@ String assets[9] = {"BTC", "ETH", "MATIC",
                     "BNB", "ADA", "DOT", 
                     "LINK", "LTC", "XLM"};
                 
-//Balances must have a 10 bit length. Balances with the same order than the tickers.
+//Balances must have a 10 digit length including the decimal point. 
+//Balances should have the same order than the tickers.
 double balances[9] = {};
 
 int assetIndex = 0;
