@@ -24,6 +24,7 @@ int prevAssetIndex= 0;
 int assetNumber = sizeof(balances)/sizeof(balances[0]) - 1;
 int counter = 0;
 
+// function to change the cryptocurrency displayed with the shield buttons.
 void position() {
   int val=analogRead(A0);
   if(val>=0&&val<=250)  {
